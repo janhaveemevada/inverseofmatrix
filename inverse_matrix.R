@@ -1,4 +1,4 @@
-makeCacheMatrix <- function(x = matrix()) #Take matrix on which you want inverse
+makeCacheMatrix <- function(x = matrix()) # matrix on which has to be inverted
 {
   inv <- NULL # initialize the cache 
   set <- function(y) 
